@@ -1,8 +1,8 @@
-__author__ = "https://github.com/mehdigudy, https://gitlab.com/frowzyispenguin"
+__author__ = "https://github.com/thisismehdi"
 __license__ = "GNU3"
-__version__ = "0.1"
+__version__ = "5"
 __maintainer__ = "Mehdi"
-__email__ = "thisismrmehdi@hotmail.com"
+
 
 
 import requests
@@ -242,9 +242,9 @@ class AparatDlApi():
 					thelink,
 					download=True)
 
-
+def main():
 # when its run from terminal or cmd
-if __name__ == "__main__":
+
 	ap = AparatDlApi()
 	arg = sys.argv[:]
 	try:
@@ -254,11 +254,11 @@ if __name__ == "__main__":
 			Options:
 				-H , --help : Helps you =)
 				-A , --allvideos  : Download whole Channel
-						aparat_dl -A [link]
+						aparat_dl -A link
 				-L , --playlist : Download whole playlist
-						aparat_dl -L [link]
+						aparat_dl -L link
 				-SL, --selectfromlist: Download videos by selection on a playlist  
-						aparat_dl  -SL [startpoint] [endpoint] [link]
+						aparat_dl  -SL startpoint endpoint link
 				-F , --FromFile: grabs links from a txt file 
 						aprat_dl -F path/to/txt/file
 
@@ -269,9 +269,7 @@ if __name__ == "__main__":
 			print("""
 			There is no link
 			Use help -H or --help to see how scripts work
-			aparat_dl.py [argumans][link]
-			or
-			aparat_dl [argumans][link]
+			aparat_dl argumans link
 			""")
 
 		elif len(arg) == 2 and arg[-1].count("http") or len(arg) == 2 and arg[-1].count("https"):
@@ -310,9 +308,9 @@ if __name__ == "__main__":
 		else:
 			print(  """
 			Use help -H or --help to see how scripts work
-			python -m  aparat_dl.py [argumans][link]
+			python -m  aparat_dl.py argumans link
 			or 
-			aparat_dl [argumans][link]
+			aparat_dl argumans link
 			""")
 	except KeyboardInterrupt as e:
 		print ("\n you just killed the program mate ! ")
@@ -320,3 +318,7 @@ if __name__ == "__main__":
 
 	except Exception as e:
 		print(str(e))
+
+
+if __name__ == "__main__":
+	main()
