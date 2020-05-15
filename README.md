@@ -84,4 +84,4 @@ aparat_dl  -H
 </br>
 هم استفاده بکنید
 </br>
-<p align="right" > <a href="https://www.aparat.com/v/hgs1x">دیدن فیلم اموزش کار با برنامه </a> </p>
+<p align="right" > <a href="https://idpay.ir/mehdigoudarzi">میتونید دونیت بدید وبرنامه رو اپدیت نگه دارید  </a> </p>
