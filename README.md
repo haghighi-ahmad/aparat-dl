@@ -1,3 +1,7 @@
+[![Downloads](https://pepy.tech/badge/aparat-dl)](https://pepy.tech/project/aparat-dl) [![Downloads](https://pepy.tech/badge/aparat-dl/month)](https://pepy.tech/project/aparat-dl/month) [![Downloads](https://pepy.tech/badge/aparat-dl/week)](https://pepy.tech/project/aparat-dl/week)
+
+
+
 <h1 align="right">
     اموزش نصب
 </h1>  
