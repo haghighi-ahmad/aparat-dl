@@ -68,7 +68,7 @@ Options:
 
 			aparat_dl  -SL startpoint endpoint link
 	
-	-F , --FromFile: grabs links from a txt file 
+	-F , --FromFile: grab links from a txt file 
 		
 		aprat_dl -F path/to/txt/file
 
