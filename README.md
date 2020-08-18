@@ -1,37 +1,33 @@
 [![Downloads](https://pepy.tech/badge/aparat-dl)](https://pepy.tech/project/aparat-dl) [![Downloads](https://pepy.tech/badge/aparat-dl/month)](https://pepy.tech/project/aparat-dl/month) [![Downloads](https://pepy.tech/badge/aparat-dl/week)](https://pepy.tech/project/aparat-dl/week)<h1 align="right">
-    اموزش نصب
+     نصب
 </h1>  
 <p align="right">
- برای نصب میتونید با استفاده از دستور
+ برای نصب می‌تونید با استفاده از دستور
 </br>
-<span align="right">
-pip
-</span>
-</br>
+
+ ```
+pip3 install --user aparat_dl 
+```
+<p align="right">
 برنامه رو نصب کنید 
 </br>
-<span >
-pip3 install --user aparat_dl 
-</span>
-</br>
-<h1 align="right" > برای اجرا</h1> 
-</br>
-<p  align="right" >
-<span align="right">
+
+<h1 align="right" > اجرا</h1>
+<p align="right">
+دستور
+<br />
+ 
+```
 python -m aparat_dl args link
-</span>
-</br>
-یا
-</br>
-<span>
+ ```
+<br /> یا
+```
 aparat_dl args link
-</span> 
-</br>
-در ترمینال یا 
-کامند پرامپت وارد کند
+```
+<p align="right">
+را در ترمینال وارد کنید
 </p>
-</p>
-<h2 align="right">این برنامه4  عمل انجام میده
+<h2 align="right">این برنامه 4  عمل انجام می‌ده
 </h2>
 <p align="right">
 دانلود کل پلی لیست  یا  رنج خاصی از پلی لیست(دانلود در پوشه ای هم نام پلی لیست) 
@@ -43,17 +39,10 @@ aparat_dl args link
 میتونید لینکاتون رو با معرفی یه فایل تکست به برنامه دانلود کنید 
 </br>
 و دانلود تکی ویدیو
-</br>
- لیست دستورات 
-</br>
-</p>
-
-
+<h2 align="right" >لیست دستورات</h2>
 <p>
-</br>
-
-Options:
-
+ 
+```
 	-H , --help : Helps you =)
 
 	-A , --allvideos  : Download whole Channel
@@ -71,17 +60,16 @@ Options:
 	-F , --FromFile: grab links from a txt file 
 		
 		aprat_dl -F path/to/txt/file
-
-</br>
+```
 
 </p>
 <p align="right">
-برای دیدن دستورات برنامه میتونید از کامند
+برای دیدن دستورات برنامه می‌تونید از کامند
 </br>
-<span>
+
+```
 aparat_dl  -H
-</span>
-</br>
+```
+<p align="right">
 هم استفاده بکنید
-</br>
 <p align="right" > <a href="https://idpay.ir/mehdigoudarzi">میتونید دونیت بدید وبرنامه رو اپدیت نگه دارید  </a> </p>
